@@ -22,4 +22,5 @@ class TodoList(models.Model):
     def __str__(self) -> str:
         return self.title
     class Meta():
-        verbose_name_plural = "Добавление задачи"
+        verbose_name_plural = "задача
+        "
