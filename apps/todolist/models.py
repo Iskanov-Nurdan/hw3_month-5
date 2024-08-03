@@ -12,7 +12,7 @@ class TodoList(models.Model):
         )
     completed = models.BooleanField(
         default=False,
-        verbose_name='Стаутс выполнения'
+        verbose_name='Статус выполнения'
         )
     created = models.DateTimeField(
         auto_now_add=True,
